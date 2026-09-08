@@ -6,7 +6,7 @@ no standalone About/Contact/Experience pages, by design.
 
 ## File structure
 ```
-portfolio/
+portfolio-project/
 ├── client/                    React frontend (Vite)
 │   ├── src/
 │   │   ├── components/         Nav, Footer, CaseStudy, TechBadge, etc.
@@ -15,7 +15,7 @@ portfolio/
 │   │   ├── api.js                Click tracking + contact form calls
 │   │   └── index.css             Design tokens (ink/brass palette, hairlines)
 │   └── public/assets/screenshots/  Real screenshots go here
-└── server/                    Express + MongoDB API (unchanged from earlier build)
+└── server/                    Express + MongoDB API
     ├── routes/                 contact.js, track.js, analytics.js
     └── models/                 Contact.js, Click.js
 ```
